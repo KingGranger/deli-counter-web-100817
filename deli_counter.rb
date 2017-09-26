@@ -4,3 +4,14 @@ def line katz_deli
   deli_line.each_with_index { |person, place| on_line << " #{place + 1}. #{person}"}
   "The line is currently:".concat(on_line)
 end
+
+def take_a_number katz_deli
+
+
+end 
+
+def now_serving katz_deli
+
+
+end 
+

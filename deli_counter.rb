@@ -11,7 +11,7 @@ def now_serving katz_deli
 end
 
 def line katz_deli
-  return "The line is currently empty." if katz_deli.length == 0
+  puts "The line is currently empty." if katz_deli.length == 0
   on_line = ""
   katz_deli.each_with_index {|person, place| on_line << " #{place + 1}. #{person}"}
   puts "The line is currently:".concat(on_line)
